@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    font-size: 18px;
+}
+
+nav p {
+    margin-left: 10px;
+    color: black;
+}
+
+nav ul {
+    margin-left: 40%;
+}
+
+nav ul li :hover {
+    background-color: orangered;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.intro-box {
+    display: flex;
+    background-color: #2832c2;
+    height: 80vh;
+    border-bottom-left-radius: 30%;
+}
+
+.left-intro-box-container {
+    flex: 1;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.left-intro-box-container h1 {
+    font-size: 40px;
+    width: 60%;
+    color: whitesmoke;
+}
+
+.left-intro-box-container p {
+    font-size: 22px;
+    color: white;
+}
+
+.left-intro-box-container button {
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.right-intro-box-container {
+    flex: 0;
+}
+
+.left-intro-box-container button:hover {
+    background-color: orangered;
+    color: white;
+    width: 300px;
+    height: 80x;
+}
+
+#mimi {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
